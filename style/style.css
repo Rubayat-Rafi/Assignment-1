@@ -57,11 +57,16 @@
     line-height: 33px;
     letter-spacing: 0%;
     text-align: left;
+    cursor: pointer;
 }
 .hero-first-btn .first-btn{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    transition: 0.3s;
+}
+.first-btn:hover{
+    transform: scale(.90);
 }
 .hero-container{
     width: 1440px;
@@ -104,8 +109,9 @@
     text-align: center;
     border: none;
     margin-top: 32px;
+    transition: 0.3s;
 }
- .second-btn a{
+ .second-btn .btn-link{
     color:rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
@@ -113,12 +119,11 @@
     padding: 20px 24px;
     background: rgb(13, 19, 33);
     border-radius: 8px;
-    transition: 0.3s;
+    
 }
-.second-btn a:hover{
-    transform: scale(1.1);
+.second-btn:hover{
+    transform: scale(.90);
 }
-
 /* hero section design end here */
 
 /* why web development section degign start here  */
@@ -322,11 +327,9 @@
 /* target section design end here*/
 
 /* next target section design start here*/
-
 .next-target{
-    margin: 150px auto;
+    margin: 150px auto 50px;
     width: 1140px;
- 
 }
 .next-target-heading{
     text-align: center;
@@ -398,3 +401,80 @@
     text-decoration-line: underline;
 }
 /* next target section design end here*/
+
+/* support section design end here*/
+.support{
+    width: 1140px;
+    height: 313px;
+    margin: 0px auto 80px;
+    background: linear-gradient(180.00deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) 100%), url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 60px 40px;
+
+}
+.support-heading{
+    width: 730px;
+    height: 104px;
+    text-align: center;
+    margin: 0 auto 24px;
+}
+.support-heading h4{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.support-heading p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedback label input{
+    font-family: "Azeret Mono", monospace;
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    padding: 17px 20px;
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+}
+input [type="text"]{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+.feedback .submit{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0px 16px;
+    padding: 17px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition:  0.3s;
+}
+.feedback .submit:hover{
+    transform: scale(0.9);
+}
+/* support section design end here*/
