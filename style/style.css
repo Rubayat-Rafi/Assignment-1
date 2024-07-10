@@ -52,6 +52,7 @@
     margin: 50px 150px;
 }
 .navbar .logo{
+    color: rgb(13, 19, 33);
     font-size: 30px;
     font-weight: 800;
     line-height: 33px;
@@ -63,6 +64,7 @@
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    background: transparent;
     transition: 0.3s;
 }
 .first-btn:hover{
@@ -200,7 +202,9 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    background: transparent;
     text-align: center;
+    padding: 10px 5px;
 }
 /* why web development section degign end here  */
 
@@ -369,13 +373,12 @@
     background: rgb(255, 255, 255);
 }
 .second-card-img{
-    width: 250px;
-    height: auto;
+    max-width: 250px;
+    height: auto; 
     margin-right: 50px;
-}
-.second-card img{
-    width: 100%;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .second-card-text h4{
     font-size: 24px;
