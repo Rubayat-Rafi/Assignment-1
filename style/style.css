@@ -1,10 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
 /* some common code design start here  */
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
     body{
         color: rgb(13, 19, 33);
         background: rgb(255, 255, 255);
@@ -138,7 +138,7 @@
 .web-heading{
     width: 852px;
     height: auto;
-    text-align: center;
+    margin: 0 auto;
     margin-bottom: 48px;
 }
 .web-heading h3{
@@ -208,6 +208,14 @@
 .inspiration{
     width: 1140px;
     margin: 0 auto 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inspiration-heading{
+    width: 852px;
+    height: auto;
 }
 .inspiration h3{
     font-size: 32px;
@@ -235,7 +243,6 @@
 .video-container iframe{
     border-radius: 16px;
 }
-
 /* inspiration section  design end here  */
 
 /* target section design start here*/
@@ -252,7 +259,6 @@
     width: 946px;
     height: auto;
     margin-bottom: 48px;
-
 }
 .target h3{
     font-size: 32px;
@@ -260,7 +266,6 @@
     line-height: 37px;
     text-align: center;
     margin-bottom: 24px;
-    
 }
 .target p{
     font-size: 16px;
@@ -300,7 +305,6 @@
     line-height: 36px;
     text-align: left;
     margin: 8px 0px;
-    
 }
 .card p{
     width: 284px;
@@ -309,8 +313,7 @@
     font-weight: 400;
     line-height: 26px;
     text-align: left;
-    margin-bottom: 24px;  
-    
+    margin-bottom: 24px; 
 }
 .card button {
     border: none;
@@ -413,7 +416,6 @@
     background-position: center;
     border-radius: 16px;
     padding: 60px 40px;
-
 }
 .support-heading{
     width: 730px;
@@ -436,7 +438,6 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    
 }
 .feedback{
     display: flex;
